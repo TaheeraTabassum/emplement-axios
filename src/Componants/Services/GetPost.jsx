@@ -18,8 +18,8 @@ export default function GetPost() {
   };
   const updateUser = async () => {
     const updatedUser = {
-      name: "Taheera",
-      email: "tahira@gmail.com",
+      name: "Taheera",               
+      email: "taheera@gmail.com",
     };
 
     const res = await axios.put(
@@ -39,3 +39,4 @@ export default function GetPost() {
     </div>
   );
 }
+            
