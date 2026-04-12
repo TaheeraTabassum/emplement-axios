@@ -18,7 +18,7 @@ export default function Movie() {
       console.log(error.data);
       console.log(error.message);
       console.log(error.status);
-      
+       
       
     }
   };
